@@ -1,1 +1,6 @@
 This repo is about Server side template injections(SSTI) with Nodejs, Ejs, lodash
+
+How to use:
+1. build docker image from dockerfile.
+2. the docker image for nodejs server exposes port 8082.
+3. run ex.sh
