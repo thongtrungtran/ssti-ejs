@@ -11,6 +11,6 @@ This repo is about Server side template injections(SSTI) with express, Ejs, loda
 2. Manipulate the `outputFunctionName` can affects the function called by the view engine, especially RCE.
 
 
-![alt text](https://user-images.githubusercontent.com/82753061/115142328-60bee480-a06b-11eb-8150-f0d5473c3754.png)
+![alt text](https://user-images.githubusercontent.com/82753061/115142328-60bee480-a06b-11eb-8150-f0d5473c3754.png?raw=true)
 
-![alt text](https://user-images.githubusercontent.com/82753061/115142359-9237b000-a06b-11eb-8b6e-8a30e01dfde7.png)
+![alt text](https://user-images.githubusercontent.com/82753061/115142359-9237b000-a06b-11eb-8b6e-8a30e01dfde7.png?raw=true)
