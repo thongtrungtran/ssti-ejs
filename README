@@ -1,6 +1,16 @@
-This repo is about Server side template injections(SSTI) with Nodejs, Ejs, lodash
+This repo is about Server side template injections(SSTI) with express, Ejs, lodash
 
-How to use:
+#How to use:
 1. build docker image from dockerfile.
 2. the docker image for nodejs server exposes port 8082.
 3. run ex.sh
+
+
+#The vulnerability
+1. Function `render()` has a shortcut that data and rendering options can be passed together in an object.
+2. Manipulate the `outputFunctionName` can affects the function called by the view engine, especially RCE.
+
+
+![image](https://user-images.githubusercontent.com/82753061/115142328-60bee480-a06b-11eb-8150-f0d5473c3754.png)
+
+![image](https://user-images.githubusercontent.com/82753061/115142359-9237b000-a06b-11eb-8b6e-8a30e01dfde7.png)
